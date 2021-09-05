@@ -1,7 +1,7 @@
 """
 
 The goal of this repo is to train the agent so that it learns to dig a tunnel on the side
-of the all to send the ball to the back of the wall to score more efficiently.
+of the wall to send the ball to the back of the wall to score more efficiently.
 
 In 2013, the DeepMind team achieved this by using a different approach, namely,
 the Deep Q Learning method. Policy gradients is a different method in reinforcement learning.
@@ -33,6 +33,8 @@ After about 250,000 episodes of training, go to the pg_breakout_test.py to see
 the action, and if you want to capture how the agent digs a tunnel, follow the 
 third script tunnel.py
 
+The best thing is that you don't need to use tensorflow; No need for CPU training.
+
 you can see the action in the gif above or on my website below as well
 https://gattonweb.uky.edu/faculty/lium/v/dig_tunnel.gif
  
@@ -50,7 +52,7 @@ batch_size = 10
 learning_rate = 1e-4
 gamma = 0.99 
 decay_rate = 0.99 
-D = 80 * 80 # input dimensionality: 80x80 grid
+D = 80 * 80 
 
 # Create model
 model = {}
