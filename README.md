@@ -1,4 +1,4 @@
-# AtariBreakoutPolicyGradients
+# Atari Breakout Policy Gradients
 ![dig_tunnel](https://user-images.githubusercontent.com/50116107/132134465-a45448b8-120e-4928-8901-9d2ec6a54afb.gif)
 
 Use policy gradients to train an agent to play the Atari Breakout game
