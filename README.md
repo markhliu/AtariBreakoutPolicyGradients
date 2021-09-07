@@ -2,14 +2,14 @@
 ![dig_tunnel](https://user-images.githubusercontent.com/50116107/132134465-a45448b8-120e-4928-8901-9d2ec6a54afb.gif)   ![breakout2](https://user-images.githubusercontent.com/50116107/132328577-256d3026-aea9-4897-8d59-b4886308ba65.gif)
 
 
-Use policy gradients to train an agent to play the Atari Breakout game
+Use policy gradients to train an agent to play the Atari Breakout game.
 
 
 The goal of this repo is to train the agent so that it learns to dig a tunnel on the side
 of the wall to send the ball to the back of the wall to score more efficiently.
 
 In 2013, the DeepMind team achieved this by using a different approach, namely,
-the Deep Q Learning method. Policy gradients is a different method in reinforcement learning.
+the Deep Q Learning method. Policy Gradient is a different method in reinforcement learning.
 
 Here I am using the policy gradients approach, inspired by this post:
 http://karpathy.github.io/2016/05/31/rl/
@@ -40,4 +40,5 @@ third script tunnel.py
 
 you can see the action in the gif above or on my website below as well
 https://gattonweb.uky.edu/faculty/lium/v/dig_tunnel.gif
+https://gattonweb.uky.edu/faculty/lium/v/breakout2.gif
  
