@@ -38,7 +38,8 @@ After about 250,000 episodes of training, go to pg_breakout_test.py to see
 the action, and if you want to capture how the agent digs a tunnel, follow the 
 third script tunnel.py
 
-you can see the action in the gif above or on my website below as well
+You can see the action in the gif above or on my website below as well
+
 https://gattonweb.uky.edu/faculty/lium/v/dig_tunnel.gif
 
 https://gattonweb.uky.edu/faculty/lium/v/breakout2.gif
